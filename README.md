@@ -124,7 +124,8 @@ INPUT	Apply the rule to incoming traffic
 --icmp-type echo-request	Match ping requests
 -j DROP	Drop matching packets
 
-<img width="473" height="41" alt="Capture 16" src="https://github.com/user-attachments/assets/af0f0da9-4b1e-4255-a9de-5850c692866e" />
+<img width="436" height="36" alt="Capture 27" src="https://github.com/user-attachments/assets/ab53b434-7779-41b1-85ef-653ab921dfff" />
+
 
 
 In simple terms:
@@ -181,7 +182,8 @@ Once testing is complete, remove the rule:
 sudo iptables -D INPUT -p icmp --icmp-type echo-request -j DROP
 -D Means Delete
 
-<img width="473" height="41" alt="Capture 16" src="https://github.com/user-attachments/assets/a0522146-97c4-4be5-a6ff-8c79764c97cd" />
+<img width="436" height="31" alt="Capture 21" src="https://github.com/user-attachments/assets/e9cc3d37-0b25-4a30-9ef2-01f499474912" />
+
 
 The command removes the matching rule from the INPUT chain.
 
