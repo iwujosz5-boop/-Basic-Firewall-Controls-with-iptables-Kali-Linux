@@ -124,7 +124,8 @@ INPUT	Apply the rule to incoming traffic
 --icmp-type echo-request	Match ping requests
 -j DROP	Drop matching packets
 
-<img width="514" height="210" alt="Capture 12" src="https://github.com/user-attachments/assets/0561dd98-9386-4a79-9b2f-727d1c96680b" />
+<img width="473" height="41" alt="Capture 16" src="https://github.com/user-attachments/assets/af0f0da9-4b1e-4255-a9de-5850c692866e" />
+
 
 In simple terms:
 
@@ -323,11 +324,15 @@ Kali command:
 
 sudo iptables -A INPUT -p icmp --icmp-type echo-request -j DROP
 
+<img width="480" height="51" alt="Capture 22" src="https://github.com/user-attachments/assets/d8074d7d-f106-417c-a24c-e2e61bb461bf" />
+
 Windows command:
 
 ping <Kali_IP>
 
 Result:
+<img width="471" height="239" alt="Capture 14" src="https://github.com/user-attachments/assets/4e25d395-6972-41f4-9e26-fee124695295" />
+
 
 Request timed out.
 
@@ -341,13 +346,16 @@ Kali command:
 
 sudo iptables -D INPUT -p icmp --icmp-type echo-request -j DROP
 
+<img width="436" height="31" alt="Capture 21" src="https://github.com/user-attachments/assets/913a10ae-8862-496e-9048-5510d5137154" />
+
 Windows command:
 
 ping <Kali_IP>
 
 Result:
 
-[Insert your result]
+<img width="467" height="89" alt="Capture 23" src="https://github.com/user-attachments/assets/77be7f6b-c8d8-4597-b066-12dc9056a57f" />
+
 
 Observation:
 
@@ -359,11 +367,15 @@ Kali command:
 
 sudo iptables -A INPUT -s <Windows_IP> -j DROP
 
+<img width="480" height="51" alt="Capture 22" src="https://github.com/user-attachments/assets/0238daf3-ab11-4f3d-b605-ed055fa1b0f6" />
+
 Windows test:
 
 ping <Kali_IP>
 
 Result:
+
+<img width="467" height="76" alt="Capture 24" src="https://github.com/user-attachments/assets/52fe36d7-d28f-44c6-8fcd-31682e7d43e7" />
 
 Request timed out.
 
@@ -377,13 +389,16 @@ Kali command:
 
 sudo iptables -D INPUT -s <Windows_IP> -j DROP
 
+<img width="436" height="20" alt="Capture 25" src="https://github.com/user-attachments/assets/6e60787d-ae6c-4b7a-b696-f1deaac70f56" />
+
 Windows command:
 
 ping <Kali_IP>
 
 Result:
 
-[Insert your result]
+<img width="473" height="84" alt="Capture 26" src="https://github.com/user-attachments/assets/df8952d6-2eb3-4663-b512-695c6f194914" />
+
 
 Observation:
 
