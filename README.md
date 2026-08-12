@@ -326,7 +326,8 @@ Kali command:
 
 sudo iptables -A INPUT -p icmp --icmp-type echo-request -j DROP
 
-<img width="480" height="51" alt="Capture 22" src="https://github.com/user-attachments/assets/d8074d7d-f106-417c-a24c-e2e61bb461bf" />
+<img width="436" height="36" alt="Capture 27" src="https://github.com/user-attachments/assets/fb3fa46d-5a20-4b3a-a6cf-3ddbb9807bb8" />
+
 
 Windows command:
 
