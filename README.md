@@ -145,7 +145,8 @@ Request timed out.
 Request timed out.
 Request timed out.
 
-<img width="471" height="239" alt="Capture 14" src="https://github.com/user-attachments/assets/553cb0cd-be03-42e2-b11f-2c2ef0cf0b87" />
+<img width="471" height="239" alt="Capture 14" src="https://github.com/user-attachments/assets/1a22ade4-2f97-40d9-85ae-b95a6a29e390" />
+
 
 This demonstrates that the Kali firewall is dropping the incoming ICMP Echo Requests.
 
