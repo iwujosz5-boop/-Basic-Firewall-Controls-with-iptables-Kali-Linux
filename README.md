@@ -335,7 +335,8 @@ Windows command:
 ping <Kali_IP>
 
 Result:
-<img width="471" height="239" alt="Capture 14" src="https://github.com/user-attachments/assets/4e25d395-6972-41f4-9e26-fee124695295" />
+<img width="471" height="239" alt="Capture 14" src="https://github.com/user-attachments/assets/3e529c6d-91a0-4069-be12-527e7e25f7ae" />
+
 
 
 Request timed out.
