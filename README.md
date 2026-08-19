@@ -243,7 +243,7 @@ Add the rule to the incoming traffic chain.
 
 -s 192.1**.**.*
 
-Match packets whose source IP is 192.168.63.1.
+Match packets whose source IP is 192.1**.**.1.
 
 -j DROP
 
@@ -251,7 +251,7 @@ Discard the matching packets.
 
 In Plain English
 
-Drop all incoming traffic originating from 192.168.63.1.
+Drop all incoming traffic originating from 192.1**.**.1.
 
 Unlike the previous rule, this rule is not limited to ICMP.
 
@@ -280,7 +280,7 @@ sudo iptables -L INPUT -n -v --line-numbers
 You should see something similar to:
 
 num  pkts  bytes  target  prot  source          destination
-1    10    840    DROP    all   192.168.63.1    0.0.0.0/0
+1    10    840    DROP    all   192.1**.**.1    0.0.0.0/0
 
 Again, watch the packet counter.
 
@@ -294,7 +294,7 @@ sudo iptables -D INPUT -s <Windows_IP> -j DROP
 
 For example:
 
-sudo iptables -D INPUT -s 192.168.63.1 -j DROP
+sudo iptables -D INPUT -s 192.1**.**.1 -j DROP
 
 Verify:
 
