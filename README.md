@@ -358,7 +358,8 @@ ping <Kali_IP>
 
 Result:
 
-<img width="467" height="89" alt="Capture 23" src="https://github.com/user-attachments/assets/77be7f6b-c8d8-4597-b066-12dc9056a57f" />
+<img width="508" height="206" alt="Capture 11" src="https://github.com/user-attachments/assets/20d13bb2-5170-4b0b-b6b3-a8babf60bf44" />
+
 
 
 Observation:
