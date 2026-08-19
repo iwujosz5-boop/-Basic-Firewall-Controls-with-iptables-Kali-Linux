@@ -402,7 +402,8 @@ ping <Kali_IP>
 
 Result:
 
-<img width="473" height="84" alt="Capture 26" src="https://github.com/user-attachments/assets/df8952d6-2eb3-4663-b512-695c6f194914" />
+<img width="508" height="206" alt="Capture 11" src="https://github.com/user-attachments/assets/1990ad3f-a8af-4f0b-b442-164f4c837755" />
+
 
 
 Observation:
